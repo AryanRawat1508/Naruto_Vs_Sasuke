@@ -1,0 +1,129 @@
+
+html{
+background-image: url('2.png');
+
+}
+*{
+    /* background-color: var(--back); */
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --back:rgb(4, 255, 138);
+}
+
+
+.yolo{
+    display: flex;
+    font-size: 30px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color:#B8233C ;
+    border: 2px solid white;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    
+ 
+}
+
+nav ul li{
+    
+    padding-left: 25px;
+    
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: aqua;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+} */
+h1{
+    font-size: 150px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 214, 238);
+    /* border: 2px dashed white; */
+    /* width: 1340px; */
+    /* box-sizing: border-box; */
+}
+.characters{
+    margin-left: 80px;
+    font-size: 100px;
+}
+.naruto{
+    box-sizing: border-box;
+    border: 2px solid;
+    width: 500px;
+    background-image: url('yo.png');
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    list-style-position: inside;
+    
+}
+div span{
+    padding-right: 90px;
+} 
+.sasuke{
+    box-sizing: border-box;
+    border: 2px solid;
+    width: 500px;
+    background-image: url('yo2.png');
+    color: rgb(58, 143, 255);
+    /* display: flex; */
+    /* justify-content: right; */
+    margin-left: 770px;
+    /* margin-right: x; */
+    list-style-position: inside;
+    
+}
+.lines{
+    color: gold;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 1450px;
+    padding: 10px;
+    margin-left: 200px;
+}
+#logo{
+    /* border: 2px solid purple; */
+    margin-left: 1800px;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.5;
+}
+footer{
+    background-color: #B8233C;
+    color: white;
+    margin-top: 20px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border: 2px solid white;
+    /* width: 100vw; */
+    display:flex
+}
+.footer{
+    margin: 0;
+    padding: 0;
+}
